@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
-  background-size: cover;
+  background:bottom center;
+
 }
 body,html {
   margin: 0;
@@ -10,9 +10,9 @@ body,html {
 }
 
 .keys {
-  display: flex;
+  display: inline-block;
   flex: 1;
-  min-height: 100vh;
+  min-height:0;
   align-items: center;
   justify-content: center;
 }
