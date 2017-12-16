@@ -4,7 +4,7 @@ html {
 
 }
 body{
-  background-color: black;
+  background-color: #212020;
 }
 
 
@@ -18,7 +18,7 @@ body{
 }
 
 .key {
-  border: .4rem solid green;
+  border: .2rem solid green;
   border-radius: .5rem;
   /*margin: 1rem;*/
   font-size: 1.5rem;
@@ -27,7 +27,7 @@ body{
 
   width: 7rem;
   /*text-align: center;*/
-  color: white;
+
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 
@@ -39,7 +39,7 @@ body{
 }
 .keyboard{
   text-align: center;
-  padding-top: 10%;
+  padding-top: 8%;
 
 }
 
@@ -50,7 +50,7 @@ img{
 
 
 .playing {
-  transform: scale(3.1);
+  transform: scale(2.5);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
