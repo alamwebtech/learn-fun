@@ -4,8 +4,16 @@ html {
 
 }
 body{
-  background-color: #212020;
+  background-color: #1a1a1a;
 }
+
+
+.cable{
+  height:100px;
+  width:10px;
+  background-color:green;
+   margin:0 75%;
+ }
 
 
 .keys {
@@ -39,7 +47,7 @@ body{
 }
 .keyboard{
   text-align: center;
-  padding-top: 8%;
+  padding-top: 0%;
 
 }
 
@@ -54,9 +62,7 @@ img{
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
-.keyboardRow{
 
-}
 kbd {
   display: block;
   font-size: 4rem;
@@ -67,4 +73,25 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+  transition-delay: 0s, 1s;
+  width: 95px;
+  font-size: 2em;
+
+
+}
+
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
 }
