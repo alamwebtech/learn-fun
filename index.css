@@ -1,0 +1,70 @@
+html {
+  font-size: 10px;
+
+
+}
+body{
+  background-color: black;
+}
+
+
+.keys {
+  display: inline-block;
+  flex: 1;
+  min-height:0;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.key {
+  border: .4rem solid green;
+  border-radius: .5rem;
+  /*margin: 1rem;*/
+  font-size: 1.5rem;
+  /*padding: 1rem .5rem;*/
+  transition: all 0.8s ease-in-out;
+
+  width: 7rem;
+  /*text-align: center;*/
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+
+  /*display:inline-block;*/
+  /*border:1px solid red;*/
+  padding:10px;
+  margin-bottom:5px;
+
+}
+.keyboard{
+  text-align: center;
+  padding-top: 10%;
+
+}
+
+img{
+  height:80px;
+  width:70px;
+}
+
+
+.playing {
+  transform: scale(3.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+.keyboardRow{
+
+}
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
