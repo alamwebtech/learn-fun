@@ -1,28 +1,24 @@
 html {
   font-size: 10px;
-
-
 }
-body{
+
+body {
   background-color: #1a1a1a;
 }
 
+.cable {
+  height: 100px;
+  width: 10px;
+  background-color: green;
+  margin: 0 75%;
+}
 
-.cable{
-  height:100px;
-  width:10px;
-  background-color:green;
-   margin:0 75%;
- }
-
-
-.keys {
+.chabi {
   display: inline-block;
   flex: 1;
-  min-height:0;
+  min-height: 0;
   align-items: center;
   justify-content: center;
-
 }
 
 .key {
@@ -32,30 +28,25 @@ body{
   font-size: 1.5rem;
   /*padding: 1rem .5rem;*/
   transition: all 1.5s ease;
-
   width: 7rem;
   /*text-align: center;*/
-
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 .5rem black;
-
   /*display:inline-block;*/
   /*border:1px solid red;*/
-  padding:10px;
-  margin-bottom:5px;
-
+  padding: 10px;
+  margin-bottom: 5px;
 }
-.keyboard{
+
+.keyboard {
   text-align: center;
   padding-top: 0%;
-
 }
 
-img{
-  height:80px;
-  width:70px;
+img {
+  height: 80px;
+  width: 70px;
 }
-
 
 .playing {
   transform: scale(2.5);
@@ -87,8 +78,6 @@ kbd {
   transition-delay: 0s, 1s;
   width: 95px;
   font-size: 2em;
-
-
 }
 
 .box:hover {
