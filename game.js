@@ -12,7 +12,7 @@ var gameOptions = {
 }
 
 window.onload = function() {
- game = new Phaser.Game(500, 500, Phaser.CANVAS);
+  game = new Phaser.Game(500, 500, Phaser.CANVAS);
   game.state.add("PlayGame", playGame, true);
 }
 
