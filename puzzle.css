@@ -18,7 +18,30 @@ html{
  }
 
 img{
-padding-left: 20px;
-padding-top: 20px;
+
 z-index: 50px;
+}
+
+.home {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+  transition-delay: 0s, 1s;
+  width: 95px;
+  font-size: 2em;
+  padding-top: 0;
+  font-family: tahoma;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.home:hover {
+  background: #ff7b29;
+  border-radius: 50%;
 }

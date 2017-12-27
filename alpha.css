@@ -61,7 +61,7 @@ kbd {
   color: #ffc600;
 }
 
-.box {
+.home {
   background: #2db34a;
   border-radius: 6px;
   cursor: pointer;
@@ -75,7 +75,7 @@ kbd {
   font-size: 2em;
 }
 
-.box:hover {
+.home:hover {
   background: #ff7b29;
   border-radius: 50%;
 }
