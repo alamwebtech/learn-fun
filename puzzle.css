@@ -1,0 +1,24 @@
+body {
+  background: #7DCEA0;
+  /*background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(images/img.png);*/
+  margin: 0;
+  padding: 0;
+  width: 1050px;
+  /*height: 1000px;*/
+background-size: cover;
+background-position: relative;
+}
+
+html{
+	height: 100%;
+}
+
+[draggable] {
+  cursor: move;
+ }
+
+img{
+padding-left: 20px;
+padding-top: 20px;
+z-index: 50px;
+}

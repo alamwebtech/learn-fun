@@ -1,0 +1,81 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #A3E4D7  ;
+}
+
+.cable {
+  height: 100px;
+  width: 10px;
+  background-color: green;
+  margin: 0 75%;
+}
+
+.chabi {
+  display: inline-block;
+  flex: 1;
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .2rem solid green;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  transition: all 1.5s ease;
+  width: 7rem;
+  background: #34495E;
+  text-shadow: 0 0 .5rem black;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.keyboard {
+  text-align: center;
+  padding-top: 0%;
+}
+
+img {
+  height: 80px;
+  width: 70px;
+}
+
+.playing {
+  transform: scale(2.5);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+  transition-delay: 0s, 1s;
+  width: 95px;
+  font-size: 2em;
+}
+
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
