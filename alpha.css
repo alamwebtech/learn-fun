@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  
+
   background-color: #A3E4D7  ;
 }
 
@@ -74,6 +74,10 @@ kbd {
   transition-delay: 0s, 1s;
   width: 95px;
   font-size: 2em;
+
+}
+a:link{
+  text-decoration:none;
 }
 
 .home:hover {
