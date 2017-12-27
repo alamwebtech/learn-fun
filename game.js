@@ -27,7 +27,7 @@ playGame.prototype = {
 
     game.stage.disableVisibilityChange = true;
 
-    game.stage.backgroundColor = 0x66c6cc;
+    game.stage.backgroundColor = 0x2980B9;
 
     game.load.image("timebar", "img/timebar.png");
 
