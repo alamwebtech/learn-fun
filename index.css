@@ -70,3 +70,28 @@ span.blink {
     opacity: .0;
   }
 }
+#grass img{
+  padding-top: 100px;
+  z-index: 50px;
+  width: 100%;
+}
+/* span#bottom{
+  padding-top: 10%;
+} */
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  min-height: 170px;
+	background: url(img/corals.png) 50% 50%;
+	background-size: 100% 100%;
+  margin-top: 22%;
+}
+
+img#socialIcon{
+  height: 50px;
+  padding-top: 130px;
+}
