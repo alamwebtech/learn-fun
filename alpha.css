@@ -3,6 +3,7 @@ html {
 }
 
 body {
+
   background-color: #A3E4D7  ;
 }
 
@@ -61,7 +62,7 @@ kbd {
   color: #ffc600;
 }
 
-.box {
+.home {
   background: #2db34a;
   border-radius: 6px;
   cursor: pointer;
@@ -73,9 +74,13 @@ kbd {
   transition-delay: 0s, 1s;
   width: 95px;
   font-size: 2em;
+
+}
+a:link{
+  text-decoration:none;
 }
 
-.box:hover {
+.home:hover {
   background: #ff7b29;
   border-radius: 50%;
 }
