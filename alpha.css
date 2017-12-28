@@ -84,3 +84,10 @@ a:link{
   background: #ff7b29;
   border-radius: 50%;
 }
+
+p{
+  position: inline-block;
+  color: gold;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
