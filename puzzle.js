@@ -28,22 +28,22 @@ var dragndrop = (function() {
     whichArt.style.top = e.pageY - myY + 'px';
   }
 
-function touchStart(e) {
-  e.preventDefault();
-  var whichArt = e.target;
-  var touch = e.touches[0];
-  var moveOffsetX = whichArt.offsetLeft - touch.pageX;
-  var moveOffsetY = whichArt.offsetTop - touch.pageY;
-  resetZ();
-  whichArt.style.zIndex = 10;
+  function touchStart(e) {
+    e.preventDefault();
+    var whichArt = e.target;
+    var touch = e.touches[0];
+    var moveOffsetX = whichArt.offsetLeft - touch.pageX;
+    var moveOffsetY = whichArt.offsetTop - touch.pageY;
+    resetZ();
+    whichArt.style.zIndex = 10;
 
-  whichArt.addEventListener('touchmove', function() {
-    var positionX = touch.pageX + moveOffsetX;
-    var positionY = touch.pageY + moveOffsetY;
-    whichArt.style.left = positionX + 'px';
-    whichArt.style.top = positionY + 'px';
-  }, false);
-} 
+    whichArt.addEventListener('touchmove', function() {
+      var positionX = touch.pageX + moveOffsetX;
+      var positionY = touch.pageY + moveOffsetY;
+      whichArt.style.left = positionX + 'px';
+      whichArt.style.top = positionY + 'px';
+    }, false);
+  }
 
   document.querySelector('body').addEventListener('dragstart', moveStart, false);
   document.querySelector('body').addEventListener('dragover', moveDragOver, false);
@@ -53,5 +53,3 @@ function touchStart(e) {
 
 
 })();
-
-
