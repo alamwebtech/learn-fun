@@ -1,25 +1,25 @@
-body{
+body {
   /* background: #fdf9f9; */
   background-image: url(img/mountains.png);
   background-color: #C0392B;
-  padding:0px;
-  margin:0px;
+  padding: 0px;
+  margin: 0px;
 }
 
-img{
+img {
   width: 50px;
   height: 50px;
 }
 
-canvas{
-display: block;
-touch-action: none;
-user-select: none;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-width: 252px;
-height: 252px;
-margin-right: -557px;
-margin-top: 0px;
+canvas {
+  display: block;
+  touch-action: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 252px;
+  height: 252px;
+  margin-right: -557px;
+  margin-top: 0px;
 }
 
 .home {

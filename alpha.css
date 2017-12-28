@@ -3,8 +3,7 @@ html {
 }
 
 body {
-
-  background-color: #A3E4D7  ;
+  background-color: #A3E4D7;
 }
 
 .cable {
@@ -85,13 +84,12 @@ kbd {
   background: #ff7b29;
   border-radius: 50%;
 }
-a:link{
-  text-decoration:none;
+
+a:link {
+  text-decoration: none;
 }
 
-
-
-p{
+p {
   position: inline-block;
   color: gold;
   margin-top: -10px;
