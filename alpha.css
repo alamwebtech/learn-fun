@@ -7,7 +7,7 @@ body {
 }
 
 .cable {
-  height: 100px;
+  height: 190px;
   width: 10px;
   background-color: green;
   margin: 0 75%;
@@ -95,3 +95,15 @@ p {
   margin-top: -10px;
   margin-bottom: -10px;
 }
+
+/* @media screen and (max-width: 768px) {
+  div.keyboard{
+padding-top: 90%;
+  }
+}
+
+@media screen and(max-width: 375px) {
+  .keyboard{
+padding-top: 20%;
+  }
+} */

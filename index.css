@@ -45,6 +45,7 @@ p {
   width: 30em;
   animation: type 7s steps(60, end);
   padding-bottom: 60px;
+
 }
 
 span.blink {
@@ -53,27 +54,12 @@ span.blink {
   position: inline-block;
 }
 
-@keyframes type {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes blink {
-  to {
-    opacity: .0;
-  }
-}
-
 #grass img {
   padding-top: 100px;
   z-index: 50px;
   width: 100%;
 }
 
-/* span#bottom{
-  padding-top: 10%;
-} */
 
 .footer {
   position: fixed;
@@ -88,6 +74,56 @@ span.blink {
 }
 
 img#socialIcon {
-  height: 50px;
+  height: 70px;
   padding-top: 130px;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size:1.5em;
+    width: 100%;
+  }
+  #boat img{
+    padding-top: 10%;
+  }
+  #pngImage{
+    padding-top: 10%;
+  }
+  .paragraph{
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  p {
+    font-size:.70em;
+  }
+  #boat img{
+    padding-top:10%;
+
+  }
+  #pngImage{
+    padding-top: 10%;
+
+  }
+
+  img{
+    height: 120px;
+
+  }
+  .paragraph{
+    padding-top: 10%;
+  }
 }
